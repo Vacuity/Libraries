@@ -25,8 +25,48 @@
         xmlns:ns3="http://dbpedia.org/ontology/"
         xmlns:sparql="http://www.w3.org/ns/sparql-service-description#">
 
-    <sparql:NamedGraph rdf:about="dsn:data.vios.network/g/fct">
+    <sparql:NamedGraph rdf:about="dsn:data.vios.network/g/technology/fct">
         <rdfs:label>Faceted Search</rdfs:label>
+    </sparql:NamedGraph>
+
+    <sparql:NamedGraph rdf:about="dsn:data.vios.network/g/technology/transformers">
+        <rdfs:label>Transformers</rdfs:label>
+    </sparql:NamedGraph>
+
+    <sparql:NamedGraph rdf:about="dsn:data.vios.network/g/technology/editors">
+        <rdfs:label>Editors</rdfs:label>
+    </sparql:NamedGraph>
+
+    <sparql:NamedGraph rdf:about="dsn:data.vios.network/g/technology/server-side">
+        <rdfs:label>Server-side</rdfs:label>
+    </sparql:NamedGraph>
+
+    <sparql:NamedGraph rdf:about="dsn:data.vios.network/g/technology/client-side">
+        <rdfs:label>Client-side</rdfs:label>
+    </sparql:NamedGraph>
+
+    <sparql:NamedGraph rdf:about="dsn:data.vios.network/g/technology/vocabularies">
+        <rdfs:label>Vocabularies</rdfs:label>
+    </sparql:NamedGraph>
+
+    <sparql:NamedGraph rdf:about="dsn:data.vios.network/g/technology/services">
+        <rdfs:label>Services</rdfs:label>
+    </sparql:NamedGraph>
+
+    <sparql:NamedGraph rdf:about="dsn:data.vios.network/g/technology/standards">
+        <rdfs:label>Standards</rdfs:label>
+    </sparql:NamedGraph>
+
+    <sparql:NamedGraph rdf:about="dsn:data.vios.network/g/technology/tools">
+        <rdfs:label>Tools</rdfs:label>
+    </sparql:NamedGraph>
+
+    <sparql:NamedGraph rdf:about="dsn:data.vios.network/g/technology/companies">
+        <rdfs:label>Companies</rdfs:label>
+    </sparql:NamedGraph>
+
+    <sparql:NamedGraph rdf:about="dsn:data.vios.network/g/technology/forums">
+        <rdfs:label>Forums</rdfs:label>
     </sparql:NamedGraph>
 
     </rdf:RDF>
