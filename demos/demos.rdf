@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="dsn:data.vios.network/o/"
+     xml:base="dsn:data.vios.network/o/"
+     xmlns:vprop="dsn:data.vios.network/o/p/"
+     xmlns:vclass="dsn:data.vios.network/o/c/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:dcat="http://www.w3.org/ns/dcat#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:vids="dsn:data.vios.network/i#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:scot="http://rdfs.org/scot/ns#"
+     xmlns:schema="http://schema.org/"
+     xmlns:vinst="dsn:data.vios.network/i#"
+     xmlns:dbpprop="http://dbpedia.org/property/" 
+     xmlns:dbonto="http://dbpedia.org/ontology/"
+     xmlns:opla="http://www.openlinksw.com/schema/attribution#"
+     xmlns:ns0="http://xmlns.com/foaf/0.1/" 
+        xmlns:ns1="http://www.w3.org/2000/01/rdf-schema#" 
+        xmlns:ns2="http://purl.org/dc/terms/" 
+        xmlns:ns3="http://dbpedia.org/ontology/"
+        xmlns:sparql="http://www.w3.org/ns/sparql-service-description#">
+
+        <rdf:Description rdf:about="http://www.vios.network/r/demos">
+          <vprop:index>
+            {   "type": "navigation",
+                "actions" : [
+                    { 
+                      "id":"addClassFacet", 
+                      "uri":"http://schema.org/BookmarkAction", 
+                      "label":"Bookmark", 
+                      "silent":false
+                    }
+                  ]
+            }
+          </vprop:index>
+        </rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.vios.network/o/"
+     xml:base="http://www.vios.network/o/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:schema="http://schema.org/">
+
+        <rdf:Description rdf:about="http://schema.org/BookmarkAction">
+          <rdfs:label>Bookmark Demo</rdfs:label>
+        </rdf:Description>
+        <rdf:Description rdf:about="http://schema.org/url">
+          <rdfs:label>url</rdfs:label>
+        </rdf:Description>
+
+        <schema:BookmarkAction rdf:about="http://www.vios.network/i/#W3C_Organizational_Structure">
+          <rdfs:label>W3C Organizational Structure</rdfs:label>
+          <schema:url rdf:resource="http://vio.sn/c/9BP7HOXP"/>
+        </schema:BookmarkAction>
+
+        <schema:BookmarkAction rdf:about="http://www.vios.network/i/#Black_And_White_comedies_based_on_plays">
+          <rdfs:label>Black-and-white comedies based on plays</rdfs:label>
+          <schema:url rdf:resource="http://vio.sn/c/9DK57K7P"/>
+        </schema:BookmarkAction>
+
+        <schema:BookmarkAction rdf:about="http://www.vios.network/i/#Content_overabundance">
+          <rdfs:label>Content overabundance (third item)</rdfs:label>
+          <schema:url rdf:resource="http://vio.sn/c/9DL57W7E"/>
+        </schema:BookmarkAction>
+
+        <schema:BookmarkAction rdf:about="http://www.vios.network/i/#People_named_bloom_born_in_LA">
+          <rdfs:label>People named Bloom, born in LA</rdfs:label>
+          <schema:url rdf:resource="http://vio.sn/c/9C776QW7"/>
+        </schema:BookmarkAction>
+
+        <schema:BookmarkAction rdf:about="http://www.vios.network/i/#Celestial_bodies_named_mars_manufactured_by_lockheed">
+          <rdfs:label>Celestial bodies named Mars, manufactured by Lockheed</rdfs:label>
+          <schema:url rdf:resource="http://vio.sn/c/95PZCJ7"/>
+        </schema:BookmarkAction>
+
+        <schema:BookmarkAction rdf:about="http://www.vios.network/i/#Nautical_glossary">
+          <rdfs:label>Nautical glossary</rdfs:label>
+          <schema:url rdf:resource="http://vio.sn/c/9C3OWMO7"/>
+        </schema:BookmarkAction>
+
+        <schema:BookmarkAction rdf:about="http://www.vios.network/i/#Indian_monarchs">
+          <rdfs:label>Indian monarchs</rdfs:label>
+          <schema:url rdf:resource="http://vio.sn/c/9BF3TI4P"/>
+        </schema:BookmarkAction>
+
+        <schema:BookmarkAction rdf:about="http://www.vios.network/i/#List_of_security_vulnerabilities_by_subject">
+          <rdfs:label>List of security vulnerabilities, by subject</rdfs:label>
+          <schema:url rdf:resource="http://vio.sn/c/9C7MOYM7"/>
+        </schema:BookmarkAction>
+
+        <schema:BookmarkAction rdf:about="http://www.vios.network/i/#Apple_brand_peripherals">
+          <rdfs:label>Apple brand peripherals</rdfs:label>
+          <schema:url rdf:resource="http://vio.sn/c/9BX73HOP"/>
+        </schema:BookmarkAction>
+
+
+        <schema:BookmarkAction rdf:about="http://www.vios.network/i/#Artists_and_their_instruments">
+          <rdfs:label>Artists and their instruments</rdfs:label>
+          <schema:url rdf:resource="http://vio.sn/c/9C6Z6VFP"/>
+        </schema:BookmarkAction>
+
+        <schema:BookmarkAction rdf:about="http://www.vios.network/i/#Activision_games_by_genre">
+          <rdfs:label>Activision games by genre</rdfs:label>
+          <schema:url rdf:resource="http://vio.sn/c/9B266OQ7"/>
+        </schema:BookmarkAction>
+
+
+</rdf:RDF>

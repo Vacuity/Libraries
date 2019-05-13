@@ -1,0 +1,90 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="dsn:data.vios.network/o/"
+     xml:base="dsn:data.vios.network/o/"
+     xmlns:vprop="dsn:data.vios.network/o/p/"
+     xmlns:vclass="dsn:data.vios.network/o/c/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:dcat="http://www.w3.org/ns/dcat#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:vids="dsn:data.vios.network/i#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:scot="http://rdfs.org/scot/ns#"
+     xmlns:schema="http://schema.org/"
+     xmlns:vinst="dsn:data.vios.network/i#"
+     xmlns:dbpprop="http://dbpedia.org/property/" 
+     xmlns:dbonto="http://dbpedia.org/ontology/"
+     xmlns:opla="http://www.openlinksw.com/schema/attribution#"
+     xmlns:ns0="http://xmlns.com/foaf/0.1/" 
+        xmlns:ns1="http://www.w3.org/2000/01/rdf-schema#" 
+        xmlns:ns2="http://purl.org/dc/terms/" 
+        xmlns:ns3="http://dbpedia.org/ontology/"
+        xmlns:sparql="http://www.w3.org/ns/sparql-service-description#">
+        
+    <rdf:Description rdf:about="dsn:data.vios.network/i#1859624256">
+        <rdf:type rdf:resource="http://dbpedia.org/class/yago/Glossary106420781"/>
+        <rdfs:label>Glossary of VIOS Network Terms</rdfs:label>
+        <rdfs:comment>This is a glossary containing terms used to describe VIOS Network business objects</rdfs:comment>
+        <dbpprop:term>sponge</dbpprop:term>
+        <dbpprop:term>graph</dbpprop:term>
+        <dbpprop:term>VIOS App</dbpprop:term>
+        <dbpprop:term>VIOS Network</dbpprop:term>
+        <dbpprop:term>VIOS Mobile</dbpprop:term>
+        <dbpprop:term>follow your nose</dbpprop:term>
+        <dbpprop:term>IRI</dbpprop:term>
+        <dbpprop:term>CTRL List</dbpprop:term>
+        <dbpprop:term>smart folder</dbpprop:term>
+        <dbpprop:term>category</dbpprop:term>
+        <dbpprop:term>query relaxation</dbpprop:term>
+        <dbpprop:term>field</dbpprop:term>
+        <dbpprop:term>ELF</dbpprop:term>
+        <dbpprop:term>role</dbpprop:term>
+        <dbpprop:term>library</dbpprop:term>
+        <dbpprop:term>FCT</dbpprop:term>
+        <dbpprop:term>faceted browsing</dbpprop:term>
+        <dbpprop:term>facet collector</dbpprop:term>
+        <dbpprop:term>breadcrumb path</dbpprop:term>
+        <dbpprop:term>user navigation path</dbpprop:term>
+        <dbpprop:term>URIBurner</dbpprop:term>
+        <dbpprop:term>RUDI</dbpprop:term>
+        <dbpprop:term>LOD</dbpprop:term>
+        <dbpprop:term>IDN</dbpprop:term>
+        <dbpprop:term>SVN</dbpprop:term>
+        <dbpprop:term>ANDREW</dbpprop:term>
+        <dbpprop:term>MARVIN</dbpprop:term>
+        <dbpprop:term>DARYL</dbpprop:term>
+        <dbpprop:term>VICKI</dbpprop:term>
+        <dbpprop:term>VIGIL</dbpprop:term>
+        <dbpprop:content rdf:resource="http://dbpedia.org/page/Faceted_search"/>
+        <dbpprop:content rdf:resource="http://dbpedia.org/page/Linked_data"/>
+        <dbpprop:content rdf:resource="http://dbpedia.org/page/SPARQL"/>
+        <dbpprop:content rdf:resource="http://dbpedia.org/page/Linked_data"/>
+        <dbpprop:content rdf:resource="http://dbpedia.org/page/Linked_data"/>
+        <dbpprop:content rdf:resource="dsn:data.vios.network/o/IdentityNode"/>
+        <dbpprop:content rdf:resource="dsn:data.vios.network/o/ServiceNode"/>
+        <dbpprop:content rdf:resource="dsn:data.vios.network/o/BuzzNode"/>
+        <dbpprop:content rdf:resource="dsn:data.vios.network/o/Bounty"/>
+        <dbpprop:content rdf:resource="dsn:data.vios.network/o/Asset"/>
+        <dbpprop:content rdf:resource="dsn:data.vios.network/o/Plugin"/>
+        <dbpprop:content rdf:resource="dsn:data.vios.network/i#LOD_Cloud_Cache"/>
+        <dbpprop:content rdf:resource="dsn:data.vios.network/i#Digital_Rewards_Engine"/>
+        <dbpprop:content rdf:resource="dsn:data.vios.network/i#Asset_Node_And_Digital_Rewards_Engine_Whatchamacallit"/>
+        <dbpprop:content rdf:resource="dsn:data.vios.network/i#URIBurner"/>
+        <dbpprop:content rdf:resource="dsn:data.vios.network/o/DataServer"/>
+        <dbpprop:content rdf:resource="dsn:data.vios.network/o/RDF_Unifying_Dispatch_Index"/>
+        <dbpprop:content rdf:resource="dsn:data.vios.network/o/User"/>
+        <dbpprop:content rdf:resource="dsn:data.vios.network/o/Content_Publisher"/>
+        <dbpprop:content rdf:resource="dsn:data.vios.network/o/Content_Curator"/>
+        <dbpprop:content rdf:resource="dsn:data.vios.network/o/Giant_Global_Graph_Cluster"/>
+        <dbpprop:content rdf:resource="dsn:data.vios.network/i#Virtual_Intelligence_for_Conducting_Knowledgebase_Interoperbility"/>
+        <dbpprop:content rdf:resource="dsn:data.vios.network/i#Virtual_Intelligence_for_GUI_Instantiation_and_Layout"/>
+        <dbpprop:content rdf:resource="dsn:data.vios.network/i#Data_Relationships_and_YASGUI_Lister"/>
+        <dbpprop:content rdf:resource="dsn:data.vios.network/i#MVC_Architecture_for_VIOS_Network"/>
+
+    </rdf:Description>
+
+</rdf:RDF>

@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="dsn:data.vios.network/o/"
+     xml:base="dsn:data.vios.network/o/"
+     xmlns:vprop="dsn:data.vios.network/o/property"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:dcat="http://www.w3.org/ns/dcat#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:vids="dsn:data.vios.network/i#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:scot="http://rdfs.org/scot/ns#"
+     xmlns:schema="http://schema.org/"
+     xmlns:vinst="dsn:data.vios.network/i#"
+     xmlns:dbpprop="http://dbpedia.org/property/" 
+     xmlns:dbonto="http://dbpedia.org/ontology/"
+     xmlns:opla="http://www.openlinksw.com/schema/attribution#"
+     xmlns:ns0="http://xmlns.com/foaf/0.1/" 
+        xmlns:ns1="http://www.w3.org/2000/01/rdf-schema#" 
+        xmlns:ns2="http://purl.org/dc/terms/" 
+        xmlns:ns3="http://dbpedia.org/ontology/"
+        xmlns:sparql="http://www.w3.org/ns/sparql-service-description#">
+
+    <sparql:NamedGraph rdf:about="dsn:data.vios.network/g/rudi">
+        <rdf:type rdf:resource="dsn:data.vios.network/o/Origin"/>
+        <rdfs:label>RUDI Library</rdfs:label>
+    </sparql:NamedGraph>
+
+    <sparql:NamedGraph rdf:about="dsn:data.vios.network/g/technology">
+        <rdf:type rdf:resource="dsn:data.vios.network/o/Origin"/>
+        <rdfs:label>Technology</rdfs:label>
+    </sparql:NamedGraph>
+
+    <sparql:NamedGraph rdf:about="dsn:data.vios.network/g/schema">
+        <rdf:type rdf:resource="dsn:data.vios.network/o/Origin"/>
+        <rdfs:label>VIOS Network Schema</rdfs:label>
+    </sparql:NamedGraph>
+
+    <sparql:NamedGraph rdf:about="dsn:data.vios.network/g/public/plugins">
+        <rdf:type rdf:resource="dsn:data.vios.network/o/Origin"/>
+        <rdfs:label>Plugins</rdfs:label>
+    </sparql:NamedGraph>
+
+    <sparql:NamedGraph rdf:about="dsn:data.vios.network/g/public/documentation">
+        <rdf:type rdf:resource="dsn:data.vios.network/o/Origin"/>
+        <rdfs:label>User Guide</rdfs:label>
+    </sparql:NamedGraph>
+
+    <sparql:NamedGraph rdf:about="dsn:data.vios.network/help">
+        <rdf:type rdf:resource="dsn:data.vios.network/o/Origin"/>
+        <rdfs:label>Help and Support</rdfs:label>
+    </sparql:NamedGraph>
+
+    <rdf:Description rdf:about="dsn:data.vios.network/o/Origin">
+        <rdfs:label>Origin</rdfs:label>
+        <terms:description>An originator or source of something</terms:description>
+    </rdf:Description>
+
+</rdf:RDF>

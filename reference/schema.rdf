@@ -1,0 +1,574 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="dsn:data.vios.network/o/"
+     xml:base="dsn:data.vios.network/o/"
+     xmlns:vprop="dsn:data.vios.network/o/"
+     xmlns:vclass="dsn:data.vios.network/o/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:dcat="http://www.w3.org/ns/dcat#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:vids="dsn:data.vios.network/i#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:scot="http://rdfs.org/scot/ns#"
+     xmlns:schema="http://schema.org/"
+     xmlns:vinst="dsn:data.vios.network/i#"
+     xmlns:dbpprop="http://dbpedia.org/property/" 
+     xmlns:dbonto="http://dbpedia.org/ontology/"
+     xmlns:opla="http://www.openlinksw.com/schema/attribution#"
+     xmlns:ns0="http://xmlns.com/foaf/0.1/" 
+        xmlns:ns1="http://www.w3.org/2000/01/rdf-schema#" 
+        xmlns:ns2="http://purl.org/dc/terms/" 
+        xmlns:ns3="http://dbpedia.org/ontology/"
+        xmlns:sparql="http://www.w3.org/ns/sparql-service-description#">
+
+    <owl:Ontology rdf:about="dsn:data.vios.network/onto">
+        <owl:versionIRI rdf:resource="dsn:data.vios.network/o/version_0_1"/>
+<!--        <owl:imports rdf:resource="http://www.openlinksw.com/ontology/webservices#"/> -->
+        <owl:imports rdf:resource="http://www.w3.org/ns/dcat"/>
+        <rdfs:label xml:lang="en">VIOS Ontology</rdfs:label>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+        <rdf:Description rdf:about="dsn:data.vios.network/o/DataServer/Index/field"> 
+            <rdfs:label>field</rdfs:label> 
+        </rdf:Description>
+        <rdf:Description rdf:about="dsn:data.vios.network/o/DataServer/Index/role"> 
+            <rdfs:label>role</rdfs:label> 
+        </rdf:Description>
+        <rdf:Description rdf:about="dsn:data.vios.network/o/DataServer/Index/class"> 
+            <rdfs:label>class</rdfs:label> 
+        </rdf:Description>
+        <rdf:Description rdf:about="dsn:data.vios.network/o/DataServer/Index/content"> 
+            <rdfs:label>content</rdfs:label> 
+        </rdf:Description>
+        <rdf:Description rdf:about="dsn:data.vios.network/o/DataServer/Index/library"> 
+            <rdfs:label>library</rdfs:label> 
+        </rdf:Description>
+        <rdf:Description rdf:about="dsn:data.vios.network/o/DataServer/Index/dataserver"> 
+            <rdfs:label>dataserver</rdfs:label> 
+        </rdf:Description>
+        <rdf:Description rdf:about="dsn:data.vios.network/o/DataServer/Index/timestamp"> 
+            <rdfs:label>timestamp</rdfs:label> 
+        </rdf:Description>
+        <rdf:Description rdf:about="dsn:data.vios.network/o/DataServer/Index/queryId"> 
+            <rdfs:label>queryId</rdfs:label> 
+        </rdf:Description>
+        <rdf:Description rdf:about="dsn:data.vios.network/o/DataServer/Index/sourceId"> 
+            <rdfs:label>sourceId</rdfs:label> 
+        </rdf:Description>
+        <rdf:Description rdf:about="dsn:data.vios.network/o/DataServer/Index/count"> 
+            <rdfs:label>count</rdfs:label> 
+        </rdf:Description>
+        <rdf:Description rdf:about="dsn:data.vios.network/o/DataServer/Index"> 
+            <rdfs:label>Indexed Resource</rdfs:label> 
+        </rdf:Description>
+
+        <rdf:Description rdf:about="dsn:data.vios.network/o/Profile"> 
+            <rdfs:label>Metrics Profile</rdfs:label>
+        </rdf:Description>
+        <rdf:Description rdf:about="dsn:data.vios.network/o/Profile/prevelance"> 
+            <rdfs:label>prevelance</rdfs:label> 
+        </rdf:Description>
+        <rdf:Description rdf:about="dsn:data.vios.network/o/Profile/performance"> 
+            <rdfs:label>performance</rdfs:label> 
+        </rdf:Description>
+
+    <rdf:description rdf:about="dsn:data.vios.network/i#679441099">
+        <rdf:type rdf:resource="http://dbpedia.org/class/yago/WikicatSoftwareCompanies"></rdf:type>
+        <rdf:type rdf:resource="http://dbpedia.org/class/yago/Company108058098"></rdf:type>
+        <ns0:homepage></ns0:homepage>
+        <rdfs:label>Monti Finance</rdfs:label>
+        <ns1:comment>Monti is a fintech startup aiming to remove trust from finance</ns1:comment>
+        <ns2:subject rdf:resource="https://vexchange.io"/>
+        <ns2:subject rdf:resource="http://dbpedia.org/resource/Category:Emerging_technologies"/>
+        <ns2:subject rdf:resource="http://dbpedia.org/resource/Category:Blockchains"/>
+        <ns2:subject rdf:resource="http://dbpedia.org/resource/Category:Cryptocurrencies"/>        
+        
+        <ns2:subject rdf:resource="https://www.vechain.org"/>
+        <ns3:industry rdf:resource="http://dbpedia.org/resource/Financial_industry"/>
+        <ns3:industry rdf:resource="http://dbpedia.org/page/Blockchain_(database)"></ns3:industry>
+        <ns3:product></ns3:product>
+        <ns0:name>Monti Finance</ns0:name>
+        <dbpprop:founders rdf:resource="https://medium.com/@oliverchalk245"></dbpprop:founders>
+        <foaf:depiction rdf:resource="https://cdn-images-1.medium.com/letterbox/200/36/50/50/1*y1Ub35EYd-JYr8301OgO1g.png"></foaf:depiction>
+        <dbonto:motto>Trustless financial tools</dbonto:motto>
+        <dbpprop:currency>VET</dbpprop:currency>
+        <dbpprop:currency>VIOS</dbpprop:currency>
+    </rdf:description>
+
+    <rdf:description rdf:about="https://medium.com/montifinance">
+        <rdfs:label>Monti Finance (Medium Homepage)</rdfs:label>
+        <opla:mentions rdf:resource="dsn:data.vios.network/i#679441099"></opla:mentions>
+    </rdf:description>
+
+    <rdf:description rdf:about="https://medium.com/montifinance/vexchange-1-0-beta-launch-4edffdeee57b">
+        <rdfs:label>Vexchange 1.0 Beta Launch</rdfs:label>
+        <opla:mentions rdf:resource="https://vexchange.io"></opla:mentions>
+    </rdf:description>
+
+    <rdf:description rdf:about="https://vexchange.io">
+        <rdf:type rdf:resource="https://en.wikipedia.org/wiki/Decentralized_exchange"></rdf:type>
+        <rdfs:label>Vexchange</rdfs:label>
+    </rdf:description>
+
+    <rdf:description rdf:about="https://medium.com/@oliverchalk245">
+        <rdf:type rdf:resource="http://dbpedia.org/class/yago/Person100007846"></rdf:type>
+        <rdf:type rdf:resource="http://dbpedia.org/class/yago/Executive110069645"></rdf:type>
+        <rdf:type rdf:resource="http://dbpedia.org/class/yago/Programmer110481268"></rdf:type>
+        <rdfs:label>Oliver Chalk</rdfs:label>
+    </rdf:description>
+    <owl:Class rdf:about="dsn:data.vios.network/o/Policy">
+        <rdfs:label>Policy</rdfs:label>
+        <rdfs:comment>Specifies a policy</rdfs:comment>
+    </owl:Class>
+
+    <owl:Class rdf:about="dsn:data.vios.network/o/Prototype">
+        <rdfs:label>Prototype</rdfs:label>
+        <rdfs:comment>A Prototype specifies the archetype of a group of individuals.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="dsn:data.vios.network/i#Placeholder">
+        <rdfs:label>Placeholder Value</rdfs:label>
+        <rdfs:comment>A URI to represent the concept of an non-determined value or identity placeholder, meaning, nothing is known about this URI aside from its Role as an object placeholder. It is often used to denote variable value of properties in vo:Prototype descriptions.</rdfs:comment>
+    </owl:Class>
+    <owl:ObjectProperty rdf:about="dsn:data.vios.network/o/subscribesTo">
+        <rdfs:label>Subscribes To</rdfs:label>
+        <rdfs:comment>Specifies the vo:Prototype associated with an Event Listener Facet (vo:ELF). When an instance of the vo:Prototype is detected in the VIOS data canvas, the corresponding vo:ELF is imported.</rdfs:comment>
+        <owl:domain rdf:resource="dsn:data.vios.network/o/Prototype"/>
+        <owl:range rdf:resource="dsn:data.vios.network/o/Plugin"/>
+    </owl:ObjectProperty>
+
+    <!-- Record Service Plugin -->
+    <owl:Class rdf:about="dsn:data.vios.network/o/RecordServicePlugin">
+        <rdfs:label>Record Service Plugin</rdfs:label>
+        <rdfs:comment>A Record plugin link to a third-party service.</rdfs:comment>
+    </owl:Class>
+    <owl:DataProperty rdf:about="dsn:data.vios.network/o/Plugin/classes">
+        <rdfs:comment>A string delimited list of Bootstrap image classes of the Record plugin, e.g. "fa fa-apple"</rdfs:comment>
+        <owl:domain rdf:resource="dsn:data.vios.network/o/RecordServicePlugin"/>
+        <owl:domain rdf:resource="dsn:data.vios.network/o/RecordOptionPlugin"/> 
+    </owl:DataProperty>
+    <owl:DataProperty rdf:about="dsn:data.vios.network/o/Plugin/actionUrlTemplate">
+        <rdfs:comment>URL to place in the "href" attribute of the plugin anchor tag. Supports the following placeholder tags: e.g. ${http://www.example.com/onto/MyProperty, ...} = the value of http://www.example.com/onto/MyProperty or ... in the matched record, the value of the first non-empty property in the list is used to fill the placeholder; ${keywords} = the current data canvas keywords</rdfs:comment>
+        <owl:domain rdf:resource="dsn:data.vios.network/o/RecordServicePlugin"/>
+        <owl:domain rdf:resource="dsn:data.vios.network/o/RecordTabPlugin"/>
+        <owl:domain rdf:resource="dsn:data.vios.network/o/RecordViewPlugin"/>
+        <owl:domain rdf:resource="dsn:data.vios.network/o/RecordDescriptionPlugin"/>
+    </owl:DataProperty>
+    <owl:DataProperty rdf:about="dsn:data.vios.network/o/RecordServicePlugin/tooltip">
+        <rdfs:comment>Specifies a short description of the action associated with the plugin, usually begins with a verb, .e.g. "View in iTunes"</rdfs:comment>
+        <owl:domain rdf:resource="dsn:data.vios.network/o/RecordServicePlugin"/>
+        <owl:domain rdf:resource="dsn:data.vios.network/o/RecordOptionPlugin"/> 
+    </owl:DataProperty>
+
+
+    <owl:Class rdf:about="dsn:data.vios.network/o/RecordOptionPlugin">
+        <rdfs:label>Record Option Plugin</rdfs:label>
+        <rdfs:comment>A Record plugin which adds a button to the Options tab in Record Viewer.</rdfs:comment>
+        <rdfs:comment>When specified, the vo:classes value is added to the &lt;i&gt; child of the &lt;button&gt; element.</rdfs:comment>
+    </owl:Class>
+    <owl:DataProperty rdf:about="dsn:data.vios.network/o/RecordOptionPlugin/labelPrefix">
+        <rdfs:comment>Specifies a label prefix for the Option button.</rdfs:comment>
+        <owl:domain rdf:resource="dsn:data.vios.network/o/RecordOptionPlugin"/>
+    </owl:DataProperty>
+    <owl:ObjectProperty rdf:about="dsn:data.vios.network/o/RecordOptionPlugin/labelSuffix">
+        <rdfs:comment>The value of the property in the matched Record is used as the suffix for the Option button label.</rdfs:comment>
+        <owl:domain rdf:resource="dsn:data.vios.network/o/RecordOptionPlugin"/>
+        <owl:range rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property"/>
+    </owl:ObjectProperty>
+
+    <owl:Class rdf:about="dsn:data.vios.network/o/RecordLegendPlugin">
+        <rdfs:label>Record Legend Plugin</rdfs:label>
+        <rdfs:comment>A Record plugin which adds a Legend section in Record Viewer.</rdfs:comment>
+    </owl:Class>
+    <owl:DataProperty rdf:about="dsn:data.vios.network/o/Plugin/label">
+        <rdfs:label>Specifies a label for the component.</rdfs:label>
+        <owl:domain rdf:resource="dsn:data.vios.network/o/RecordLegendPlugin"/>
+        <owl:domain rdf:resource="dsn:data.vios.network/o/RecordTabPlugin"/>
+        <owl:domain rdf:resource="dsn:data.vios.network/o/RecordViewPlugin"/>
+    </owl:DataProperty>
+
+    <owl:DataProperty rdf:about="dsn:data.vios.network/o/Plugin/componentSparqlTemplate">
+        <rdfs:comment>Specifies a SPARQL query used to populate the component. Each result set item is added to the Record Viewer using the $.append() jQuery method or equivalent. The SPARQL is executed against the current dataspace. The query projection must contain two variables: an IRI or Literal as the first, and a label as the second.</rdfs:comment>
+        <owl:domain rdf:resource="dsn:data.vios.network/o/RecordLegendPlugin"/>
+        <owl:domain rdf:resource="dsn:data.vios.network/o/RecordTabPlugin"/>
+        <owl:domain rdf:resource="dsn:data.vios.network/o/RecordViewPlugin"/>
+    </owl:DataProperty>
+
+    <owl:Class rdf:about="dsn:data.vios.network/o/RecordDescriptionPlugin">
+        <rdfs:label>Record Description Plugin</rdfs:label>
+        <rdfs:comment>A Record plugin which modifies the Description in Record Viewer.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="dsn:data.vios.network/o/RecordTabPlugin">
+        <rdfs:label>Record Tab Plugin</rdfs:label>
+        <rdfs:comment>A Record plugin which adds a Tab in Record Viewer.</rdfs:comment>
+    </owl:Class>
+    <owl:Class rdf:about="dsn:data.vios.network/o/RecordViewPlugin">
+        <rdfs:label>Record View Plugin</rdfs:label>
+        <rdfs:comment>A Record plugin which adds a View in Record Viewer.</rdfs:comment>
+    </owl:Class>
+
+
+
+
+
+    <owl:Class rdf:about="dsn:data.vios.network/o/Bounty">
+        <rdfs:subClassOf rdf:resource="http://schema.org/Demand"/>
+        <rdfs:label>Bounty</rdfs:label>
+        <rdfs:comment>A Bounty record is a description of a need attached to a reward. A Bounty published in the Data Space of a Sponsor implies the Sponsor will remit the Reward attached to the Bounty to the Provider, according to the Payment Type.</rdfs:comment>
+        <rdfs:comment>A Bounty is an announcement of a want or need attached to a reward.</rdfs:comment>
+        <dbonto:synonym>Order</dbonto:synonym>
+    </owl:Class>
+    <owl:DataProperty rdf:about="dsn:data.vios.network/o/IDNRights">
+        <owl:domain rdf:resource="dsn:data.vios.network/o/Bounty"/>
+    </owl:DataProperty>
+    <owl:DataProperty rdf:about="dsn:data.vios.network/o/payoutType">
+        <owl:domain rdf:resource="dsn:data.vios.network/o/Bounty"/>
+        <rdfs:comment>Options are: "on delivery", and "incremental"</rdfs:comment>
+    </owl:DataProperty>
+    
+    <owl:Class rdf:about="dsn:data.vios.network/o/SmartFolder">
+        <rdfs:comment>The VIOS App smart folder represents a faceted (i.e. Virtuoso FCT) SPARQL query.</rdfs:comment>
+        <dbonto:synonym>Question</dbonto:synonym>
+    </owl:Class>
+
+    <!-- dsn:data.vios.network/o/BuzzNode -->
+
+    <owl:Class rdf:about="dsn:data.vios.network/o/BuzzNode">
+        <rdfs:subClassOf rdf:resource="dsn:data.vios.network/o/ServiceNode"/>
+        <rdfs:comment>The duty of a Buzz Node is to collect URI metrics from a particular network or application, and report them to the ANDREW.</rdfs:comment>
+        <dbonto:synonym>Lead Generator</dbonto:synonym>
+    </owl:Class>
+    
+
+
+    <!-- dsn:data.vios.network/o/IdentityNode -->
+
+    <owl:Class rdf:about="dsn:data.vios.network/o/IdentityNode">
+        <rdfs:label>Identity Node</rdfs:label>
+        <rdfs:comment>A node which represents a data asset (e.g. the URI of a famous place).</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="dsn:data.vios.network/o/Node"/>
+        <dbonto:synonym>License</dbonto:synonym>
+    </owl:Class>
+    
+
+
+    <!-- dsn:data.vios.network/o/Node -->
+
+    <owl:Class rdf:about="dsn:data.vios.network/o/Node">
+        <rdfs:label>Node</rdfs:label>
+        <rdfs:comment>A digital asset capable of mining virtual currency.</rdfs:comment>
+        <dbonto:synonym>Mining Utility</dbonto:synonym>
+    </owl:Class>
+    
+
+
+    <!-- dsn:data.vios.network/o/Plugin -->
+
+    <owl:Class rdf:about="dsn:data.vios.network/o/Plugin">
+        <rdfs:label>Plugin</rdfs:label>
+        <rdfs:comment>A modular software component.</rdfs:comment>
+        <dbonto:synonym>Plugin</dbonto:synonym>
+    </owl:Class>
+    
+
+
+    <!-- dsn:data.vios.network/o/ServiceNode -->
+
+    <owl:Class rdf:about="dsn:data.vios.network/o/ServiceNode">
+        <rdfs:subClassOf rdf:resource="dsn:data.vios.network/o/Node"/>
+        <rdfs:label>Service Node</rdfs:label>
+        <rdfs:comment>A 181-VIP token which represents a software component or sevice in VIOS Network.</rdfs:comment>
+        <dbonto:synonym>License</dbonto:synonym>
+    </owl:Class>
+    
+
+
+    <!-- dsn:data.vios.network/o/VAPlugin -->
+
+    <owl:Class rdf:about="dsn:data.vios.network/o/VAPlugin">
+        <rdfs:subClassOf rdf:resource="dsn:data.vios.network/o/Plugin"/>
+        <rdfs:label>VIOS App Plugin</rdfs:label>
+        <rdfs:comment>A plugin which performs on the VIOS App data canvas.</rdfs:comment>
+        <dbonto:synonym>Plugin</dbonto:synonym>
+    </owl:Class>
+    
+
+
+    <owl:Class rdf:about="dsn:data.vios.network/o/Actor">
+        <rdfs:label>VIOS Actor</rdfs:label>
+        <rdfs:comment>An actor in VIOS Network.</rdfs:comment>
+        <dbonto:synonym>Actor</dbonto:synonym>
+    </owl:Class>
+
+    <rdf:Description rdf:about="dsn:data.vios.network/o/property/licensePeriod">
+        <rdfs:label>license period</rdfs:label>
+        <rdf:domain rdf:resource="http://schema.org/Offer"/>
+        <rdfs:comment>Determines the length of the IDN lifespan.</rdfs:comment>
+        <rdfs:comment>The IDN self-destructs when the license period ends.</rdfs:comment>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="dsn:data.vios.network/o/property/allowOverride">
+        <rdfs:label>allow override</rdfs:label>
+        <rdf:domain rdf:resource="http://schema.org/Offer"/>
+        <rdfs:comment>Determines whether descendant path offers can override this offer</rdfs:comment>
+    </rdf:Description>
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- dsn:data.vios.network/o/LOD_Cloud_Cache -->
+
+    <owl:NamedIndividual rdf:about="dsn:data.vios.network/i#LOD_Cloud_Cache">
+        <rdf:type rdf:resource="dsn:data.vios.network/o/DataServer"></rdf:type>
+        <rdfs:label>LOD Cloud Cache</rdfs:label>
+        <rdfs:comment>This Data Space stores a cache of the Linked Data Cloud (aka LOD). Linked Data is about using the Web to connect related data that wasn't previously linked, or using the Web to lower the barriers to linking data currently linked using other methods. More specifically, Wikipedia defines Linked Data as "a term used to describe a recommended best practice for exposing, sharing, and connecting pieces of data, information, and knowledge on the Semantic Web using URIs and RDF."</rdfs:comment>
+        <foaf:depiction rdf:resource="https://lod-cloud.net/clouds/lod-cloud-sm.jpg"></foaf:depiction>
+        <scot:acronym>LOD</scot:acronym>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="dsn:data.vios.network/i#URIBurner">
+        <rdf:type rdf:resource="dsn:data.vios.network/o/DataServer"></rdf:type>
+        <rdfs:label>URIBurner</rdfs:label>
+        <rdfs:comment>A data virtualization service that transforms data hosted in a variety of data spaces and formats into standards compliant Linked Data Objects for uniform access, integration and management.</rdfs:comment>
+        <foaf:depiction rdf:resource="http://uriburner.com/skin/i/uriburnerlogo.png"></foaf:depiction>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="dsn:data.vios.network/i#Virtual_Intelligence_for_Conducting_Knowledgebase_Interoperbility">
+        <rdf:type rdf:resource="http://www.wikidata.org/wiki/Q7397"></rdf:type>
+        <rdfs:label>Virtual Intelligence for Conducting Knowledgebase Interoperbility</rdfs:label>
+        <scot:acronym>VICKI</scot:acronym>
+        <terms:description>vicki is a tool for managing Virtuoso data sources such as event streams, logs. The system provides an interactive GUI for the Virtuoso Sponger technology.</terms:description>
+        <rdfs:comment>Vicki's task is to help Virtuoso users unify disparate data sources</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="dsn:data.vios.network/i#Virtual_Intelligence_for_GUI_Instantiation_and_Layout">
+        <rdf:type rdf:resource="http://www.wikidata.org/wiki/Q7397"></rdf:type>
+        <rdfs:label>Virtual Intelligence for GUI Instantiation and Layout</rdfs:label>
+        <scot:acronym>VIGIL</scot:acronym>
+        <terms:description>vigil is an open source data visualization plugin for VIOS App. It provides visualization capabilities on top of the content indexed on a Virtuoso database or cluster. Users can create bar, line and scatter plots, or pie charts and maps on top of large volumes of linked data.</terms:description>
+        <rdfs:comment>vigil's task is to help Virtuoso users build dashboards and data forms through virtual intelligence interaction</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="dsn:data.vios.network/i#Data_Relationships_and_YASGUI_Lister">
+        <rdf:type rdf:resource="http://www.wikidata.org/wiki/Q7397"></rdf:type>
+        <rdfs:label>Data Relationships and YASGUI Lister</rdfs:label>
+        <scot:acronym>DARYL</scot:acronym>
+        <terms:description>daryl is an open source client framework for the Virtuoso Faceted Browsing Service</terms:description>
+        <rdfs:comment>daryls's task is to help Virtuoso users search and browse data spaces exposed via the FCT endpoint</rdfs:comment>
+    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="dsn:data.vios.network/i#MVC_Architecture_for_VIOS_Network">
+        <rdf:type rdf:resource="http://www.wikidata.org/wiki/Q7397"></rdf:type>
+        <rdfs:label>MVC Architecture for VIOS Network</rdfs:label>
+        <scot:acronym>MARVIN</scot:acronym>
+        <terms:description>marvin is an open source MVC framework used by VIOS Network</terms:description>
+        <rdfs:comment>marvin is based on Angular technology</rdfs:comment>
+        <rdfs:comment>It is based on Flatlogic Admin Template</rdfs:comment>
+    </owl:NamedIndividual>
+
+
+    <owl:NamedIndividual rdf:about="dsn:data.vios.network/i#Asset_Node_And_Digital_Rewards_Engine_Whatchamacallit">
+        <rdf:type rdf:resource="dsn:data.vios.network/o/Actor"></rdf:type>
+        <rdf:type rdf:resource="dsn:data.vios.network/i#Digital_Rewards_Engine"/>
+        <rdfs:label>The Asset, Node, And Digital Rewards Engine Whatchamacallit</rdfs:label>
+        <scot:acronym>ANDREW</scot:acronym>
+        <terms:description>ANDREW is the official rewards engine of VIOS network. It tracks and rewards ontologies, metatagging, services and other assets throughout the Buzz Node network. </terms:description>
+        <rdfs:comment>The role of ANDREW is to distribute its endowment of VIOS tokens to VIOS Network IDN in accordance with the rewards formula.</rdfs:comment>
+        <dbonto:synonym>Rewards Program</dbonto:synonym>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="dsn:data.vios.network/i#Digital_Rewards_Engine">
+        <rdfs:label>Digital Rewards Engine</rdfs:label>
+        <terms:description>A Digtal Rewards Engine provides incentives for users, producers and sponsors within an asset ecosystem. Users employ digital-based services to execute simple tasks (e.g. lookup a friend) or complete complex activities (e.g. search for a book, read reviews and compare prices from several book vendors). Producers are classed as individuals or organisations that are involved in the creation of digital assets designed to aide the user in their online goals. Sponsors are persons who contribute digital currency to authors in exchange for ownership of the digital representation of the created asset. Anyone can sponsor an asset, including the asset's author. Rewards are typically performance-based. Sponsors connect to users via online networks which facilitate the buying, selling, trading, and rewarding of digital asset tokens. </terms:description>
+        <rdfs:seeAlso rdf:resource="https://kinecosystem.org/static/files/Kin_Whitepaper_V1_English.pdf"></rdfs:seeAlso>
+        <rdfs:seeAlso rdf:resource="https://vechaininsider.com/guides/guide-to-vechain-nodes-and-node-rewards/#vtho_rewards_overview"></rdfs:seeAlso>
+        <rdfs:seeAlso rdf:resource="https://medium.com/@sdmonroe/mapping-the-future-of-it-1c9d28b13a3"></rdfs:seeAlso>
+        <foaf:depiction rdf:resource="http://data.vios.network/DAV/home/vios/img/andrew.png"></foaf:depiction>
+        <dbonto:synonym>Rewards Program Manager</dbonto:synonym>
+    </owl:NamedIndividual>
+
+    <rdf:Description rdf:about="dsn:data.vios.network/i#1859624256a">
+        <rdfs:label>Categories, Text/Fields, Roles, and Libraries List</rdfs:label>
+        <scot:acronym>CTRL</scot:acronym>
+        <rdfs:comment>The CTRL List is used to control navigation through Data Space in the VIOS App UI.</rdfs:comment>
+        <dbonto:synonym>Filter Selector</dbonto:synonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="dsn:data.vios.network/i#1859624256c">
+        <rdfs:label>Event Listening Facet</rdfs:label>
+        <scot:acronym>ELF</scot:acronym>
+        <rdfs:comment>The role of an ELF is to listen to data canvas events and respond with useful behavior, such as applying a visual format to the contents of a smart folder.</rdfs:comment>
+        <dbonto:synonym>Plugin</dbonto:synonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="dsn:data.vios.network/i#1859624256d">
+        <rdfs:label>Smart Folder</rdfs:label>
+        <rdfs:comment>The data in VIOS is organized in a logical directory residing on a global “hard drive” (actually, a “directory” is just a faceted SPARQL query, and the “hard drive” is a data server or a cluster of data servers). Thus, the data servers acts as a virtual drive. The directories on these drives are smart folders.</rdfs:comment>
+        <rdfs:comment>Users navigate the VIOS hard drive by visiting smart folder directories using filters to control navigation.</rdfs:comment>
+        <dbonto:synonym>Question</dbonto:synonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="dsn:data.vios.network/i#1859624256e">
+        <rdfs:label>Virtual Intelligence Operating System</rdfs:label>
+        <scot:acronym>VIOS Network</scot:acronym>
+        <rdfs:seeAlso rdf:resource="http://dbpedia.org/page/Faceted_search"/>
+        <rdfs:seeAlso rdf:resource="http://lod.openlinksw.com/fct/"/>
+        <rdfs:seeAlso rdf:resource="https://vimeo.com/1513562"/>
+        <rdfs:seeAlso rdf:resource="https://www.slideshare.net/sdmonroe/razorbase-vs-parallax"/>
+        <rdfs:seeAlso rdf:resource="http://www.visualdataweb.org/tfacet.php"/>
+        <rdfs:seeAlso rdf:resource="http://www.irisa.fr/LIS/ferre/sparklis/osparklis.html"/>
+        <rdfs:seeAlso rdf:resource="http://simile.mit.edu/papers/iswc05.pdf"/>
+        <rdfs:comment>VIOS Network is an operating system built on WWW Architecture, and coupled with an assets rewarding engine (the ANDREW).</rdfs:comment>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="dsn:data.vios.network/o/IdentityNode">
+        <rdfs:label>Identity Node</rdfs:label>
+        <scot:acronym>IDN</scot:acronym>
+        <rdfs:comment>VIOS Network data assets are assigned unique identifiers which are linked to a non-fungible token called an Identity Node (aka IDN). The IDN is a VIP 181 token.</rdfs:comment>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="dsn:data.vios.network/o/ServiceNode">
+        <rdfs:label>Service Node</rdfs:label>
+        <scot:acronym>SVN</scot:acronym>
+        <rdfs:comment>VIOS Network service assets are assigned unique identifiers which are linked to a non-fungible token called a Service Node (aka SVN). The SVN is a VIP 181 token.</rdfs:comment>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="dsn:data.vios.network/o/Asset">
+        <rdf:type rdf:resource="https://www.wikidata.org/wiki/Q1275997"></rdf:type>
+        <rdfs:label>Asset</rdfs:label>
+        <terms:description>ELFs and other vios.network features are designed to facilitate the composition of complex services. With vios.network, “when a user has specific needs, she will make a request and an ad-hoc application, automatically composed and deployed at run-time and tailored to the specific context the user is in, will satisfy them” . ELFs are disparate, modular hyperservices which can be brought together ad-hoc to assist a user with an activity. Examples of ELFs include data collectors (forms), query UI/UX, URI and result set handlers (lenses), and adaptors (spongers), and action services, as well as algorithms for tasks such as service relation detection and user behavior analysis, which are used by the data canvas to enhance user experience. Assets are developed by the VIOS community and collected in the VIOS Registry. These assets are contextually suggested to the user as they interact with the data canvas. In addition to contextual presentation of assets, users can browse the VIOS Registry to select assets. The VIOS network is designed to facilitate both human and machine users.</terms:description>
+        <rdfs:comment>VIOS allows third parties to create domain-specific extensions (assets) to add value to the user’s raw data. These assets perform on the VIOS data canvas and include data models (ontologies) and event listener facets (ELF). These terms refer to software design patterns created for the VIOS network.</rdfs:comment>
+        <foaf:depiction rdf:resource="http://data.vios.network/DAV/home/vios/img/assets.png"></foaf:depiction>
+        <dbonto:synonym>Property</dbonto:synonym>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="dsn:data.vios.network/o/RDF_Unifying_Dispatch_Index">
+        <rdf:type rdf:resource="http://dbpedia.org/page/Proxy_server"></rdf:type>
+        <rdfs:label>RDF Unifying Dispatch Index</rdfs:label>
+        <terms:description>Whereas semantic assertions are published to the EDI, users publish semantic queries to the RUDI. The RUDI stores descriptions of RDF containers such as Solid PODS , RDF documents, and RDF Triple Stores submitted by their owners and users or discovered by Buzz Nodes. The HAL utilizes the RUDI to perform federated queries across disparate data sources according to the RUDI protocol, which is based on principles from DARQ. RUDI requests are processed in four stages:
+        &lt;ol&gt;
+        &lt;li&gt;Parsing. In the first stage the query is parsed into a tree model of SPARQL&lt;/li&gt;
+
+        &lt;li&gt;Query Planning. In the second stage the query engine decomposes the query and builds multiple sub-queries according to the information in the service description, each of which can be answered by one known data source&lt;/li&gt;
+
+        &lt;li&gt;Optimization. In the third stage, the query optimizer takes the sub-queries and builds an optimized query execution plan&lt;/li&gt;
+
+        &lt;li&gt;Query extraction. In the fourth stage, the query execution plan is executed. The sub-queries are routed to their respective data services and the results are integrated in the user’s data account.&lt;/li&gt;
+        &lt;/ol&gt;
+        </terms:description>
+        <schema:url rdf:resource="http://vios.network/rudi"/>
+        <rdfs:comment>The RUDI is the proxy server used by all VIOS Network clients. All faceted and SPARQL queries submitted to vios.network are received by the RUDI.</rdfs:comment>
+        <scot:acronym>RUDI</scot:acronym>
+        <dbonto:synonym>Smart Proxy</dbonto:synonym>
+    </rdf:Description>
+
+    <owl:Class rdf:about="dsn:data.vios.network/o/User">
+        <rdf:type rdf:resource="dsn:data.vios.network/o/Actor"/>
+        <rdfs:label>VIOS User</rdfs:label>
+        <terms:description>A user served by VIOS Network.</terms:description>
+        <foaf:depiction rdf:resource="https://images.unsplash.com/photo-1543269865-0a740d43b90c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"/>
+        <rdfs:seeAlso rdf:resource="http://schema.org/Demand"/>
+        <dbonto:synonym>Member</dbonto:synonym>
+    </owl:Class>
+
+    <owl:Class rdf:about="dsn:data.vios.network/o/Content_Publisher">
+        <rdf:type rdf:resource="dsn:data.vios.network/o/Actor"/>
+        <rdfs:label>Content Publisher</rdfs:label>
+        <terms:description>A VIOS Network user who contributes dataspaces to the GGG.</terms:description>
+        <rdfs:comment>Content Publishers may license their content by publishing offers at the URI documents they control.</rdfs:comment>
+        <rdfs:seeAlso rdf:resource="http://schema.org/Offer"/>
+        <foaf:depiction rdf:resource="https://images.unsplash.com/photo-1503694978374-8a2fa686963a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80"/>
+        <dbonto:synonym>Media Publisher</dbonto:synonym>
+    </owl:Class>
+
+    <owl:Class rdf:about="dsn:data.vios.network/o/Content_Curator">
+        <rdf:type rdf:resource="dsn:data.vios.network/o/Content_Publisher"/>
+        <rdfs:label>Content Curator</rdfs:label>
+        <terms:description>A VIOS Network user who contributes triples to a record in VIOS Network.</terms:description>
+        <rdfs:comment>Content Curators contribute statements to records by cloning the record URI and adding statements about the clone.</rdfs:comment>
+        <rdfs:seeAlso rdf:resource="http://vio.sn/c/9D6X6QHG"/>
+        <rdfs:seeAlso rdf:resource="https://www.npr.org/2011/04/18/135508305/the-sad-beautiful-fact-that-were-all-going-to-miss-almost-everything?sc=tw"/>
+        <foaf:depiction rdf:resource="https://images.unsplash.com/photo-1537202108838-e7072bad1927?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=985&q=80"/>
+        <dbonto:synonym>Syndicator</dbonto:synonym>
+    </owl:Class>
+
+    <rdf:Description rdf:about="https://medium.com/@sdmonroe/vios-dev-content-monetization-8c2a05f4a987">
+        <opla:mentions rdf:resource="dsn:data.vios.network/o/Content_Curator"></opla:mentions>
+        <opla:mentions rdf:resource="dsn:data.vios.network/o/Content_Publisher"></opla:mentions>
+        <opla:mentions rdf:resource="http://dbpedia.org/page/Three_Laws_of_Robotics"></opla:mentions>
+        <opla:mentions rdf:resource="dsn:data.vios.network/o/IdentityNode"/>
+        <opla:mentions rdf:resource="dsn:data.vios.network/o/ServiceNode"/>
+        <opla:mentions rdf:resource="dsn:data.vios.network/o/BuzzNode"/>
+        <opla:mentions rdf:resource="dsn:data.vios.network/i#Digital_Rewards_Engine"/>
+        <opla:mentions rdf:resource="dsn:data.vios.network/i#Asset_Node_And_Digital_Rewards_Engine_Whatchamacallit"/>
+        <opla:mentions rdf:resource="dsn:data.vios.network/o/Asset"/>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="dsn:data.vios.network/o/Giant_Global_Graph_Cluster">
+        <rdfs:label>Giant Global Graph Cluster</rdfs:label>
+        <scot:acronym>GGG Cluster</scot:acronym>
+        <terms:description>A high availibility Virtuoso cluster.</terms:description>
+        <terms:description>The Giant Global Graph (G3) cluster is a high-availability elastic cluster of Virtuoso instances owned by members of the VIOS community, and operated by Vacuity. The G3 cluster is used to supplement the HAL’s main cluster. The content of the G3 cluster is determined by Vacuity. A G3 Node  is an Buzz Node which provides metrics about URIs residing in the G3 cluster. The node mines a percentage of the VIOS earned by the URIs it reports, and this percentage is determined by ANDREW. The Node owner is responsible for paying the monthly cost of keeping the node active. If a user misses a payment, the node is returned to the VIOS Registry and the user is no longer entitled to its rewards. The rewards from unsold nodes in the VIOS Registry are paid to Vacuity. A group of users may share in the cost and rewards of a node. G3 node owners must complete a KYC enrollment process, and they must agree to the G3 service terms and conditions. G3 Node performance data is made publicly available.</terms:description>
+        <rdfs:comment>The GGG is the semantic web analog to the World Wide Web - it refers to the collection of all Data Spaces and all documents on the Linked Data Web.</rdfs:comment>
+        <rdfs:seeAlso rdf:resource="http://vos.openlinksw.com/owiki/wiki/VOS/VirtClusteringDiagrams"/>
+        <rdfs:seeAlso rdf:resource="http://docs.openlinksw.com/virtuoso/clusteroperationgeneral/"/>
+        <rdfs:seeAlso rdf:resource="http://vio.sn/c/9D5V4AA7"/>
+        <dbonto:synonym>Semantic Web of Linked Data</dbonto:synonym>
+    </rdf:Description>
+
+    <owl:NamedIndividual rdf:about="dsn:data.vios.network/i#Proof_of_Performance">
+        <rdfs:label>Proof of Performance</rdfs:label>
+        <scot:acronym>PoP</scot:acronym>
+        <terms:description>A blockchain consensus mechanism</terms:description>
+        <terms:description>Nodes are rewarded based on the measured, economic utility of the good or service represented by the node. The main characteristics of PoP are:
+            &lt;ul&gt;
+            &lt;li&gt;Asset creators assign URIs to their assets&lt;/li&gt;
+            &lt;li&gt;Metrics are collected for the assets&lt;/li&gt;
+            &lt;li&gt;A communal resource pool is allocated&lt;/li&gt;
+            &lt;li&gt;The asset creator allows their URIs to be tokenized by others&lt;/li&gt;
+            &lt;li&gt;A rewards engine divvies out the token supply to the URI NFTs in proportion to the NFTs' measured performance&lt;/li&gt;
+            &lt;/ul&gt;
+            The model assumes the utility theory of value, which states that consumers will strive to maximize their utility. Thus, the most sought and most used goods and services are deemed to have the greatest utility. PoP therefore measures queries and usage and publishes these metrics to 
+            rewards providers. Usage is measured in most cases by sending service request through the RUDI and PBR proxies. Proof-of-Authority is used to determine who is allowed to publish metrics, while a DAO is used to determine which performers receive rewards and in what proportion.
+        </terms:description>
+        <rdfs:comment>The details of the rewards engine is left up to the implementation</rdfs:comment>
+        <dbonto:synonym>Meritocracy</dbonto:synonym>
+        <rdf:type rdf:resource="dsn:data.vios.network/i#Digital_Rewards_Engine"/>
+    </owl:NamedIndividual>
+
+    <owl:Class rdf:about="dsn:data.vios.network/o/DataServer">
+        <rdfs:label>DataServer</rdfs:label>
+        <rdfs:comment>A Data Server is the semantic web analogy to a Web Server. A Data Server uses the same infrastructure as a Web Server, but instead of web documents, it serves metadata exclusively. In DBMS speak, it is a DBMS. In semantic web speak, a Data Server is a triplestore/quadstore/RDF repository which provides certain data assurance controls and data quality metrics, such as authority ranking, for the statements it serves.</rdfs:comment>
+        <rdfs:subClassOf rdf:resource="http://www.openlinksw.com/ontology/webservices#WebService"/>
+        <dbonto:synonym>Triple Store</dbonto:synonym>
+    </owl:Class>
+
+    <rdf:Description rdf:about="https://medium.com/@sdmonroe/vios-reference-implementation-3153a3d589cf">
+        <opla:mentions rdf:resource="dsn:data.vios.network/o/DataServer"></opla:mentions>
+        <opla:mentions rdf:resource="dsn:data.vios.network/o/Giant_Global_Graph_Cluster"></opla:mentions>
+    </rdf:Description>
+
+    <rdf:Description rdf:about="http://www.w3.org/ns/sparql-service-description#NamedGraph">
+        <rdfs:label>Library</rdfs:label>
+    </rdf:Description>
+
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

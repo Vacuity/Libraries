@@ -1,0 +1,331 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="dsn:data.vios.network/o/"
+     xml:base="dsn:data.vios.network/o/"
+     xmlns:vprop="dsn:data.vios.network/o/p/"
+     xmlns:vclass="dsn:data.vios.network/o/c/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:dcat="http://www.w3.org/ns/dcat#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:vids="dsn:data.vios.network/i#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:scot="http://rdfs.org/scot/ns#"
+     xmlns:schema="http://schema.org/"
+     xmlns:vinst="dsn:data.vios.network/i#"
+     xmlns:dbpprop="http://dbpedia.org/property/" 
+     xmlns:dbonto="http://dbpedia.org/ontology/"
+     xmlns:opla="http://www.openlinksw.com/schema/attribution#"
+     xmlns:ns0="http://xmlns.com/foaf/0.1/" 
+        xmlns:ns1="http://www.w3.org/2000/01/rdf-schema#" 
+        xmlns:ns2="http://purl.org/dc/terms/" 
+        xmlns:ns3="http://dbpedia.org/ontology/"
+        xmlns:moat="http://moat-project.org/ns#"
+        xmlns:sparql="http://www.w3.org/ns/sparql-service-description#">
+        <rdf:Description rdf:nodeId="showThings">
+          <vprop:index>
+            {   "type" : "navigation",
+                "actions" : [
+                    { 
+                      "id":"addClassFacet", 
+                      "uri":"http://schema.org/Thing", 
+                      "label":"Thing", 
+                      "silent":false
+                    }
+                  ]
+            }
+          </vprop:index>
+        </rdf:Description>
+
+        <rdfs:Resource rdf:nodeId="DARYL">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <rdfs:label>DARYL framework</rdfs:label>
+            <terms:subject>VIOS</terms:subject>
+            <terms:description>This document describes the principles of the VIOS App DARYL concept, and makes use of the reference implementation (PoC). The Data Relationships and YASGUI Lister (DARYL) is a reference implementation of the linked data browser concept used by VIOS Network. The DARYL features innovations introduced in several linked data browsers, including:
+
+Piggy Bank
+Simile
+Tabulator (see also)
+OpenLink Faceted Search
+Microsoft Pivot
+Parallax
+Razorbase
+Qanvas
+TFacets
+Sparqlis</terms:description>
+            <rdfs:comment>A technical description of the Data Relationships and YASGUI Lister</rdfs:comment>
+            <rdfs:comment>Describes the first incarnation of the VIOS concept</rdfs:comment>
+            <opla:mentions rdf:resource="http://poc.vios.network/"></opla:mentions>
+            <opla:mentions rdf:resource="https://www.w3.org/wiki/TaskForces/CommunityProjects/LinkingOpenData/SemWebClients"></opla:mentions>
+            <opla:mentions rdf:resource="http://vos.openlinksw.com/owiki/wiki/VOS/VirtuosoFacetsWebService"></opla:mentions>
+            <opla:mentions rdf:resource="https://en.wikipedia.org/wiki/Data_source_name"></opla:mentions>
+            <opla:mentions rdf:resource="https://en.wikipedia.org/wiki/Named_graph#Named_graphs_and_RDF_stores"></opla:mentions>
+            <opla:mentions rdf:resource="http://kidehen.blogspot.com/2014/07/nanotation.html"></opla:mentions>
+            <opla:mentions rdf:resource="http://vos.openlinksw.com/owiki/wiki/VOS/VirtuosoFacetsViewsLinkedData"></opla:mentions>
+            <opla:mentions rdf:resource="https://www.slideshare.net/sdmonroe/razorbase-examples-part-4-1540939"></opla:mentions>
+            <opla:mentions rdf:resource="http://docs.openlinksw.com/virtuoso/anytimequeries/"></opla:mentions>
+            <opla:mentions rdf:resource="https://medium.com/@sdmonroe/vios-network-99488f5bf29d"></opla:mentions>
+            <foaf:depiction rdf:resource="https://cdn-images-1.medium.com/max/2400/1*Ks3smP3emqQzzV_tbA2nPg.png"></foaf:depiction>
+
+            <owl:sameAs rdf:resource="https://medium.com/@sdmonroe/vios-reference-implementation-3153a3d589cf"/>
+        </rdfs:Resource>
+        <rdfs:Resource rdf:nodeId="Faceted_Search_(Wikipedia)">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <rdfs:label>Faceted Search (Wikipedia)</rdfs:label>
+            <owl:sameAs rdf:resource="https://en.wikipedia.org/wiki/Faceted_search"/>
+            <terms:subject>Faceted Browsing</terms:subject>
+            <rdfs:comment>Interesting link between faceted classification and library science</rdfs:comment>
+            <terms:description>Faceted search is a technique which involves augmenting traditional search techniques with a faceted navigation system, allowing users to narrow down search results by applying multiple filters based on faceted classification of the items.</terms:description>
+            <opla:mentions rdf:resource="https://en.wikipedia.org/wiki/Colon_classification"></opla:mentions>
+            <opla:mentions rdf:resource="https://en.wikipedia.org/wiki/Library_and_information_science"></opla:mentions>
+            <opla:mentions rdf:resource="https://en.wikipedia.org/wiki/List_of_enterprise_search_vendors"></opla:mentions>
+            <opla:mentions rdf:resource="https://en.wikipedia.org/wiki/Faceted_classification"></opla:mentions>
+            <rdfs:seeAlso rdf:resource="https://tel.archives-ouvertes.fr/tel-01130622/document"></rdfs:seeAlso>
+            <rdfs:seeAlso rdf:resource="https://wiki.dbpedia.org/project-categories/faceted-browsers"></rdfs:seeAlso>
+        </rdfs:Resource>
+        <schema:ItemList rdf:nodeId="Faceted_Browsers">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <rdfs:label>Faceted Browsers</rdfs:label>
+            <rdfs:comment>A list of faceted browsers for the SPARQL query language</rdfs:comment>
+            <rdfs:comment>Graph-based UI approach provides a very rewarding UX</rdfs:comment>
+            <owl:sameAs rdf:resource="https://wiki.dbpedia.org/project-categories/faceted-browsers"></owl:sameAs>
+        </schema:ItemList>
+        <schema:CreativeWork rdf:nodeId="Tabulator_(slides)">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <rdfs:label>Tabulator (slides)</rdfs:label>
+            <schema:author rdf:resource="https://www.w3.org/People/Berners-Lee/"></schema:author>
+            <owl:sameAs rdf:resource="http://dig.csail.mit.edu/2007/Talks/0511-tab-tbl/#(21)"/>
+            <rdfs:comment>Demonstrates follow-your-nose pattern and just-in-time fetch/ingestion of links along the navigation path</rdfs:comment>
+            <rdfs:comment>Document fetch is asynchronous</rdfs:comment>
+            <rdfs:comment>Tabulation of the graph is another key feature</rdfs:comment>
+        </schema:CreativeWork>
+        <rdfs:Resource rdf:nodeId="Tabulator_Homepage">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <rdfs:label>Tabulator Homepage</rdfs:label>
+            <owl:sameAs rdf:resource="http://dig.csail.mit.edu/2007/Talks/0511-tab-tbl/#(1)"/>
+            <terms:description>Data browser rewards Semantic Web best practices</terms:description>
+            <rdfs:seeAlso rdf:resource="http://dig.csail.mit.edu/"></rdfs:seeAlso>
+            <rdfs:seeAlso rdf:resource="https://www.w3.org/2005/ajar/tab.html"></rdfs:seeAlso>
+            <foaf:depiction rdf:resource="http://dig.csail.mit.edu/2007/tab/img/example3.jpg"></foaf:depiction>
+        </rdfs:Resource>
+        <schema:SoftwareApplication rdf:nodeId="OpenLink_Facets">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <rdfs:label>OpenLink Facets</rdfs:label>
+            <terms:description>The Virtuoso Faceted Browser service is a general purpose RDF data query facility for faceted browsing over entity relationship types (i.e. relations). It takes an XML or JSON description of the desired view, and generates the reply in the form of XML or JSON documents comprised of the requested data. For The user agent or a local web page can use XSLT for rendering out for end users, when XML documents are returned. Likewise, JSON oriented tools can be used to transform JSON documents as part of user experience via Javascript based applications.</terms:description>
+            <owl:sameAs rdf:resource="http://vos.openlinksw.com/owiki/wiki/VOS/VirtuosoFacetsWebService"></owl:sameAs>
+            <rdfs:comment>stateless query interaction</rdfs:comment>
+            <rdfs:comment>exposes subset of SPARQL</rdfs:comment>
+            <rdfs:comment>exposes key Virtuoso features, such as Anytime query and just-in-time fetch/injection of URIs</rdfs:comment>
+            <foaf:depiction rdf:resource="http://vos.openlinksw.com/owiki/wiki/VOS/VirtFCTFeatureQueries/VirtFCTFeatureQueries03.png"></foaf:depiction>
+            <rdfs:seeAlso rdf:resource="http://vos.openlinksw.com/owiki/wiki/VOS/VirtuosoFacetsViewsLinkedData"></rdfs:seeAlso>
+            <rdfs:seeAlso rdf:resource="https://medium.com/virtuoso-blog/five-simple-steps-to-experience-the-power-of-a-semantic-web-of-linked-data-using-virtuoso-3e016d01dfbe"></rdfs:seeAlso>
+            <rdfs:seeAlso rdf:resource="https://www.youtube.com/watch?v=8BTdzBX54Os"></rdfs:seeAlso>
+        </schema:SoftwareApplication>
+        <schema:ExhibitionEvent rdf:nodeId="Microsoft_Pivot_(Presentation)">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <rdfs:label>Microsoft Pivot (Presentation)</rdfs:label>
+            <owl:sameAs rdf:resource="https://www.youtube.com/watch?v=G29DBIEcIuQ"/>
+        </schema:ExhibitionEvent>
+        <schema:CreativeWork rdf:nodeId="Parallax_(screencast)">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <rdfs:label>Parallax (screencast)</rdfs:label>
+            <schema:author rdf:resource="http://davidhuynh.net/"></schema:author>
+            <owl:sameAs rdf:resource="https://vimeo.com/1513562"/>
+            <rdfs:seeAlso rdf:resource="http://people.csail.mit.edu/dfhuynh/projects/parallax/"></rdfs:seeAlso>
+            <foaf:depiction rdf:resource="http://well-formed-data.net/wp-content/uploads/2008/08/screenshot_-20-1.png"></foaf:depiction>
+        </schema:CreativeWork>
+        <schema:CreativeWork rdf:nodeId="Razorbase_(slides)">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <rdfs:label>Razorbase (slides)</rdfs:label>
+            <owl:sameAs rdf:resource="https://www.slideshare.net/sdmonroe/razorbase-vs-parallax"/>
+            <foaf:depiction rdf:resource="https://image.slidesharecdn.com/razorbase-mockups-090527224726-phpapp02/95/razorbase-vs-parallax-12-1024.jpg?cb=1243470407"></foaf:depiction>
+        </schema:CreativeWork>
+        <rdfs:Resource rdf:nodeId="gFacets">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <rdfs:label>gFacets</rdfs:label>
+            <owl:sameAs rdf:resource="http://www.visualdataweb.org/gfacet.php"/>
+            <foaf:depiction rdf:resource="https://www.researchgate.net/profile/Philipp_Heim/publication/220853992/figure/fig7/AS:668413261275138@1536373548160/In-gFacet-the-result-set-is-defined-by-the-user-A-and-represented-by-the-initial-node.png"></foaf:depiction>
+        </rdfs:Resource>
+        <rdfs:Resource rdf:nodeId="tFacets">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <rdfs:label>tFacets</rdfs:label>
+            <owl:sameAs rdf:resource="http://www.visualdataweb.org/tfacet.php"/>
+            <foaf:depiction rdf:resource="https://i.ytimg.com/vi/BoYPOsYNUK0/maxresdefault.jpg"></foaf:depiction>
+        </rdfs:Resource>
+        <schema:SoftwareApplication rdf:nodeId="Sparklis_(Online_Demo)">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <rdfs:label>Sparklis (Online Demo)</rdfs:label>
+            <dbonto:abstract>Linked data is increasingly available through SPARQL endpoints, but exploration and question answering by regular Web users largely remain an open challenge. Users have to choose between the expressivity of formal languages such as SPARQL, and the usability of tools based on navigation and visualization. In a previous work, we have proposed Query-based Faceted Search (QFS) as a way to reconcile the expressivity of formal languages and the usability of faceted search. In this paper, we further reconcile QFS with scalability and portability by building QFS over SPARQL endpoints. We also improve expressivity and readability. Many SPARQL features are now covered: multidimensional queries, union, negation, optional, filters, aggregations, ordering. Queries are now verbalized in English, so that no knowledge of SPARQL is ever necessary. All of this is implemented in a portable Web application, Sparklis, and has been evaluated on many endpoints and questions.</dbonto:abstract>
+            <owl:sameAs rdf:resource="http://www.irisa.fr/LIS/ferre/sparklis/osparklis.html"/>
+            <rdfs:seeAlso rdf:resource="http://www-semlis.irisa.fr/software/"/>
+            <rdfs:seeAlso rdf:resource="http://people.irisa.fr/Sebastien.Ferre/software/sewelis/"/>
+            <rdfs:seeAlso rdf:resource="https://wiki.dbpedia.org/projects/sparklis"/>
+            <rdfs:comment>Faceted collection is tabulated</rdfs:comment>
+            <foaf:depiction rdf:resource="https://wiki.dbpedia.org/sites/default/files/sparklis_screenshot.png"></foaf:depiction>            
+        </schema:SoftwareApplication>
+        <schema:SoftwareApplication rdf:nodeId="PivotViewer">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <terms:description>The HTML5 PivotViewer is a fork of a project that was started by LobsterPot Solutions as a cross browser, cross platform version of the Silverlight PivotViewer control produced by Microsoft. The control was written as a jQuery plug-in and utilises features available in HTML5.</terms:description>
+            <rdfs:label>PivotViewer</rdfs:label>
+            <owl:sameAs rdf:resource="https://github.com/OpenLinkSoftware/html5pivotviewer"/>
+            <rdfs:seeAlso rdf:resource="http://vos.openlinksw.com/owiki/wiki/VOS/VirtVisualizeWithPivotViewer"/>
+            <rdfs:seeAlso rdf:resource="https://twitter.com/search?f=tweets%26vertical=default%26q=%23PivotViewer%20%23HTML5%20%40kidehen%26src=typd"/>
+            <rdfs:seeAlso rdf:resource="https://www.slideshare.net/kidehen/html5-based-pivotviewer-for-linked-data-sparql-based"></rdfs:seeAlso>
+            <foaf:depiction rdf:resource="https://image.slidesharecdn.com/html5-pivotviewer-for-linked-data-130703164039-phpapp01/95/html5-based-pivotviewer-for-visualizing-linked-data-15-1024.jpg?cb=1373015762"></foaf:depiction>
+        </schema:SoftwareApplication>
+        <schema:SoftwareApplication rdf:nodeId="Ontogator">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <rdfs:label>Ontogator</rdfs:label>
+            <owl:sameAs rdf:resource="https://seco.cs.aalto.fi/download/2004-03-18-semweb/ontologies.zip"/>
+            <rdfs:seeAlso rdf:resource="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.106.1089&amp;rep=rep1&amp;type=pdf"/>
+        </schema:SoftwareApplication>
+        <schema:SoftwareApplication rdf:nodeId="GraFa">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <rdfs:label>GraFa</rdfs:label>
+            <terms:description>GraFa is a faceted browsing system for heterogeneous large-scale RDF graphs based on a materialisation strategy that performs an offline analysis of the input graph in order to identify a subset of the exponential number of possible facet combinations that are candidates for indexing</terms:description>
+            <owl:sameAs rdf:resource="http://grafa.dcc.uchile.cl/"/>
+            <rdfs:seeAlso rdf:resource="http://aidanhogan.com/docs/grafa_faceted_search_wikidata.pdf"/>
+            <foaf:depiction rdf:resource="https://www.researchgate.net/profile/Philipp_Heim/publication/220853992/figure/fig3/AS:305624425484295@1449877949838/Multiple-selections-are-possible_Q320.jpg"></foaf:depiction>
+        </schema:SoftwareApplication>
+        <schema:SoftwareApplication rdf:nodeId="BrowseRDF">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <rdfs:label>BrowseRDF</rdfs:label>
+            <terms:description>BrowseRDF is a faceted browser that works on arbitrary RDF data. We analyse the data and apply heuristics to determine more and less interesting facets. We then generate a browser interface to navigate and query the data using those facets.</terms:description>
+            <owl:sameAs rdf:resource="https://launchpad.net/browserdf"/>
+            <rdfs:seeAlso rdf:resource="http://web.archive.org/web/20130228025226/http://iswc2006.semanticweb.org/items/Oren2006nx.pdf"/>
+            <rdfs:seeAlso rdf:resource="http://vio.sn/c/9BB5OKPD"/>
+        </schema:SoftwareApplication>
+        <schema:SoftwareApplication rdf:nodeId="slashFacet">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <rdfs:label>/facet</rdfs:label>
+            <dbonto:abstract>Facet browsing has become popular as a user friendly interface to data repositories. The Semantic Web raises new challenges due to the heterogeneous character of the data. First, users should be able to select and navigate through facets of resources of any type and to make selections based on properties of other, semantically related, types. Second, where traditional facet browsers require manual configuration of the software, a semantic web browser should be able to handle any RDFS dataset without any additional configuration. Third, hierarchical data on the semantic web is not designed for browsing: complementary techniques, such as search, should be available to overcome this problem. We address these requirements in our browser, /facet. Additionally, the interface allows the inclusion of facet-specific display options that go beyond the hierarchical navigation that characterizes current facet browsing. /facet is a tool for Semantic Web developers as an instant interface to their complete dataset. The automatic facet configuration generated by the system can then be further refined to configure it as a tool for end users. The implementation is based on current Web standards and open source software. The new functionality is motivated using a scenario from the cultural heritage domain.</dbonto:abstract>
+            <owl:sameAs rdf:resource="https://web.archive.org/web/20080218014154/http://e-culture.multimedian.nl:80/demo/facet"/>
+            <rdfs:seeAlso rdf:resource="https://link.springer.com/chapter/10.1007/11926078_20"/>
+        </schema:SoftwareApplication>
+        <schema:SoftwareApplication rdf:nodeId="Explorator">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <rdfs:label>Explorator</rdfs:label>
+            <dbonto:abstract>In this paper we introduce Explorator, a tool for exploring the Semantic Web data by direct manipulation. Explorator implements a model of operations that is supported by a visual interface that enables the user, with minimal knowledge of RDF model, to explore an RDF database without a-priori knowledge of data domain. Consequently, it is well suited for tasks that involve information search, exploration and visualization.</dbonto:abstract>
+            <owl:sameAs rdf:resource="http://www.tecweb.inf.puc-rio.br/explorator"/>
+            <rdfs:seeAlso rdf:resource="http://events.linkeddata.org/ldow2009/papers/ldow2009_paper2.pdf"/>
+        </schema:SoftwareApplication>
+        <schema:SoftwareApplication rdf:nodeId="Rhizomer">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <rdfs:label>Rhizomer</rdfs:label>
+            <dbonto:abstract>Rhizomer is a faceted browser that also provides a pivoting operation that allows no-experts to build complex semantic queries. It can be deployed on top of existing stores (Virtuoso, Jena, Sesame/OWLIM) and builds a user interface that provides Information Architecture components that facilitate fulfilling typical data exploration</dbonto:abstract>
+            <owl:sameAs rdf:resource="http://rhizomik.net/html/rhizomer/"/>
+            <rdfs:seeAlso rdf:resource="https://www.w3.org/2001/sw/wiki/Rhizomer"/>
+            <foaf:depiction rdf:resource="http://rhizomik.net/html/rhizomer/images/Rhizomer-Factsheet.png"></foaf:depiction>
+        </schema:SoftwareApplication>
+        <schema:SoftwareApplication rdf:nodeId="Facete">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <rdfs:label>Facete</rdfs:label>
+            <dbonto:abstract>The Facete project is comprised of a JavaScript library for faceted browsing of RDF data and (at the moment) an application for browsing geo-related RDF data. The application thereby offers filtering by facets, pivoting, and display of the data on a map.</dbonto:abstract>
+            <owl:sameAs rdf:resource="http://cstadler.aksw.org/facete"/>
+            <rdfs:seeAlso rdf:resource="http://aksw.org/Projects/Facete.html"/>
+            <foaf:depiction rdf:resource="https://raw.githubusercontent.com/GeoKnow/Facete/devel/facete-dissemination/src/main/resources/images/2013-04-21-Facete-Screenshot.png"></foaf:depiction>
+        </schema:SoftwareApplication>
+        <schema:SoftwareApplication rdf:nodeId="ReVeaLD">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <rdfs:label>ReVeaLD</rdfs:label>
+            <dbonto:abstract>Bioinformatics research relies heavily on the ability to discover and correlate data from various sources. The specialization of life sciences over the past decade, coupled with an increasing number of biomedical datasets available through standardized interfaces, has created opportunities towards new methods in biomedical discovery. Despite the popularity of semantic web technologies in tackling the integrative bioinformatics challenge, there are many obstacles towards its usage by non-technical research audiences. In particular, the ability to fully exploit integrated information needs using improved interactive methods intuitive to the biomedical experts. In this report we present ReVeaLD (a Real-time Visual Explorer and Aggregator of Linked Data), a user-centered visual analytics platform devised to increase intuitive interaction with data from distributed sources. ReVeaLD facilitates query formulation using a domain-specific language (DSL) identified by biomedical experts and mapped to a self-updated catalogue of elements from external sources. ReVeaLD was implemented in a cancer research setting; queries included retrieving data from in silico experiments, protein modeling and gene expression. ReVeaLD was developed using Scalable Vector Graphics and JavaScript and a demo with explanatory video is available at http://www.srvgal78.deri.ie:8080/explorer. A set of user-defined graphic rules controls the display of information through media-rich user interfaces. Evaluation of ReVeaLD was carried out as a game: biomedical researchers were asked to assemble a set of 5 challenge questions and time and interactions with the platform were recorded. Preliminary results indicate that complex queries could be formulated under less than two minutes by unskilled researchers. The results also indicate that supporting the identification of the elements of a DSL significantly increased intuitiveness of the platform and usability of semantic web technologies by domain users.</dbonto:abstract>
+            <owl:sameAs rdf:resource="http://www.srvgal78.deri.ie:8080/explorer"/>
+            <rdfs:seeAlso rdf:resource="https://www.sciencedirect.com/science/article/pii/S1532046413001536"/>
+        </schema:SoftwareApplication>
+        <schema:SoftwareApplication rdf:nodeId="Hippalus">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <rdfs:label>Hippalus</rdfs:label>
+            <dbonto:abstract>In this work we describe and evaluate Hippalus, a system that offers exploratory search enriched with preferences. Hippalus supports the very popular interaction model of Faceted and Dynamic Taxonomies (FDT), enriched with user actions which allow the users to express their preferences. The underlying preference framework allows expressing preferences over attributes (facets), whose values can be hierarchically valued and/or multi-valued, and offers automatic conflict resolution. To evaluate the system we conducted a user study with a number of tasks related to a “car selection” scenario. The results of the comparative evaluation, with and without the preference actions, were impressive: with the preference-enriched FDT, all users completed all the tasks successfully in 1/3 of the time, performing 1/3 of the actions compared to the plain FDT. Moreover all users (either plain or expert) preferred the preference enriched interface. The benefits are also evident through various other metrics</dbonto:abstract>
+            <owl:sameAs rdf:resource="http://62.217.127.128:8080/Hippalus/examples"/>
+            <rdfs:seeAlso rdf:resource="https://www.semanticscholar.org/paper/Hippalus%3A-Preference-enriched-Faceted-Exploration-Papadakos-Tzitzikas/444cc3163bec7b13a403c7eb9ca6120884b32ccf"/>
+            <rdfs:seeAlso rdf:resource="https://www.researchgate.net/publication/241701142_Hippalus_-_A_Preference_Enriched_Faceted_Exploratory_System"/>
+
+            <rdfs:seeAlso rdf:resource="https://youtu.be/Cah-z7KmlXc"/>
+            <rdfs:seeAlso rdf:resource="https://youtu.be/--SXCeJvfhc"/>
+            <rdfs:comment>Preferences are a form of sorting, more specifically, sorting groups of results</rdfs:comment>
+            <foaf:depiction rdf:resource="https://ai2-s2-public.s3.amazonaws.com/figures/2017-08-08/444cc3163bec7b13a403c7eb9ca6120884b32ccf/4-Figure1-1.png"></foaf:depiction>
+
+        </schema:SoftwareApplication>
+        <schema:SoftwareApplication rdf:nodeId="VisiNav">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <rdfs:label>VisiNav</rdfs:label>
+            <dbonto:abstract>Web standards such as RDF (Resource Description Framework) facilitate data integration over large number of sources. The resulting interlinked datasets describe objects, their attributes and links to other objects. Such datasets are amenable for queries beyond traditional keyword search and for visualisation beyond a simple list of links to documents. Given that data integrated from the open web exhibits enormous variety in scope and structure, the mechanisms for interacting with such data have to be generic and agnostic to the vocabularies used. Ideally, a system operating on web data is easy to use without upfront training. To this end, we present VisiNav, a system based on an interaction model designed to easily search and navigate large amounts of web data (the current system contains over 18.5m RDF triples aggregated from 70k sources). In this paper we introduce a formal query model comprising four atomic operations over object-structured datasets: keyword search, object focus, path traversal, and facet specification. From these atomic operations, users incrementally assemble complex queries that yield trees of objects as result. These results can then be either directly visualised or exported to application programs or online services for further processing. The current system provides detail, list, and table views for arbitrary types of objects; and timeline and map visualisations for temporal and spatial aspects of objects.</dbonto:abstract>
+            <owl:sameAs rdf:resource="http://visinav.deri.org/"/>
+            <rdfs:seeAlso rdf:resource="https://www.youtube.com/watch?v=7FaSDpMIXXo"/>
+            <rdfs:seeAlso rdf:resource="https://semwebtec.wordpress.com/tag/visinav/"/>
+            <rdfs:seeAlso rdf:resource="https://www.sciencedirect.com/science/article/pii/S1570826810000600"/>
+            <foaf:depiction rdf:resource="https://ars.els-cdn.com/content/image/1-s2.0-S1570826810000600-gr1.jpg"></foaf:depiction>
+        </schema:SoftwareApplication>
+        <schema:SoftwareApplication rdf:nodeId="Neofonie">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <rdfs:label>Neofonie</rdfs:label>
+            <dbonto:abstract>Faceted Wikipedia Search allowed users to ask complex queries, like “Which Rivers flow into the Rhine and are longer than 50 kilometers?” or “Which Skyscrapers in China have more than 50 floors and have been constructed before the year 2000?” against Wikipedia. The answers to these queries are not generated using key word matching as the answers of search engines like Google or Yahoo, but are generated based on structured information that has been extracted from many different Wikipedia articles. Faceted Wikipedia Search thus allows you to query Wikipedia like a structured database and enables you to truly exploit Wikipedia’s collective intelligence.</dbonto:abstract>
+            <owl:sameAs rdf:resource="http://dbpedia.neofonie.de/browse/"/>
+            <rdfs:seeAlso rdf:resource="http://wifo5-03.informatik.uni-mannheim.de/bizer/pub/hahn-etal-faceted-wikipedia-search-BIS2010.pdf"/>
+            <rdfs:seeAlso rdf:resource="https://wiki.dbpedia.org/projects/faceted-wikipedia-search"/>
+            <foaf:depiction rdf:resource="http://wifo5-03.informatik.uni-mannheim.de/dbpedia/dbpediasearch/dbpediasearch.jpg"></foaf:depiction>
+        </schema:SoftwareApplication>
+        <schema:SoftwareApplication rdf:nodeId="eLinda">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <rdfs:label>eLinda</rdfs:label>
+            <dbonto:abstract>To realize the premise of the Semantic Web towards knowledgeable machines, one might often integrate an application with emerging RDF graphs. Nevertheless, capturing the content of a rich and open RDF graph by existing tools requires both time and expertise. We demonstrate eLinda—an explorer for Linked Data. The challenge addressed by eLinda is that of understanding the rich content of a given RDF graph. The core functionality is an exploration path, where each step produces a bar chart (histogram) that visualizes the distribution of classes in a set of nodes (URIs). In turn, each bar represents a set of nodes that can be further expanded through the bar chart in the path. We allow three types of explorations: subclass distribution, property distribution, and object distribution for a property of choice. To efficiently compute the exploration queries, we offer a query engine powered by a worst-case-optimal join algorithm.</dbonto:abstract>
+            <owl:sameAs rdf:resource="https://openproceedings.org/2018/conf/edbt/paper-271.pdf"/>
+            <rdfs:seeAlso rdf:resource="https://drive.google.com/file/d/0B7w5CWoYzqOAYzhfejlDcU96OGs/view"/>
+            <rdfs:seeAlso rdf:resource="https://openproceedings.org/2018/conf/edbt/paper-271.pdf"/>
+            <rdfs:comment>Uses horizontal orientation rather than vertical, and histograms instead of item count labels. Skew left, rotate upwards 90 degrees, add the count to the bars.</rdfs:comment>
+            <rdfs:comment>Breadcrumbs list class facets, property facets are distinguished by color</rdfs:comment>
+            <rdfs:comment>Incoming/Outgoing language used instead of fields/roles</rdfs:comment>
+            <rdfs:comment>Faceted collection is tabulated</rdfs:comment>
+        </schema:SoftwareApplication>
+        <schema:SoftwareApplication rdf:nodeId="SemFacet">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <rdfs:label>SemFacet</rdfs:label>
+            <terms:description>SemFacet is a semantic facet based search system</terms:description>
+            <owl:sameAs rdf:resource="https://github.com/semfacet/core"/>
+            <rdfs:seeAlso rdf:resource="https://www.youtube.com/watch?v=n_uEDsTJ2KU"/>
+            <rdfs:seeAlso rdf:resource="https://www.cs.ox.ac.uk/files/6351/SemFacetwww14.pdf"/>
+            <rdfs:seeAlso rdf:resource="http://www.cs.ox.ac.uk/isg/tools/SemFacet/"/>
+            <foaf:depiction rdf:resource="http://www.cs.ox.ac.uk/isg/tools/SemFacet/search.jpg"></foaf:depiction>
+        </schema:SoftwareApplication>
+        <schema:SoftwareApplication rdf:nodeId="Jassa">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <rdfs:label>Jassa</rdfs:label>
+            <terms:description>A JavaScript Suite for SPARQL-based Faceted Search</terms:description>
+            <dbonto:abstract>The availability of SPARQL endpoints on the Web provides interesting opportunities for rapid Web application development. However, sophisticated applications need components that can adopt to the data, yet, the efficient generic exploration and visualization of data contained in those endpoints is still challenging. In this paper, we present the “JAvascript Suite for Sparql Access” (Jassa) framework, which features various abstractions and utilities for the creation and transformation of SPARQL queries, as well as the processing of corresponding result sets. The current highlights comprise modules for RDF, SPARQL, data access, conversion of result sets to objects and faceted browsing, together with corresponding user interface components based on AngularJS.</dbonto:abstract>
+            <owl:sameAs rdf:resource="http://aksw.org/Projects/Jassa.html"/>
+            <rdfs:seeAlso rdf:resource="http://jens-lehmann.org/files/2014/iswc_developers_jassa.pdf"/>
+            <rdfs:seeAlso rdf:resource="https://github.com/GeoKnow/Jassa-Core/tree/master/lib/rdf"/>
+            <foaf:depiction rdf:resource="https://raw.githubusercontent.com/GeoKnow/Jassa-UI-Angular/master/jassa-ui-angular-dissemination/images/facet-tree.png"></foaf:depiction>
+        </schema:SoftwareApplication>
+        <schema:SoftwareApplication rdf:nodeId="SPARQL_Faceter">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <rdfs:label>SPARQL Faceter</rdfs:label>
+            <terms:description>Client-side Faceted Search Based on SPARQL</terms:description>
+            <dbonto:abstract>The faceted search paradigm is widely used in web applications, and there are various tools available for implementing it on the server side. In contrast, this paper presents an HTML based component tool on the client side that can be plugged on virtually any public SPARQL endpoint on the web, using only SPARQL API for data retrieval. To test and demonstrate the idea and the tool, application of the tool in a large in-use semantic portal is presented.</dbonto:abstract>
+            <schema:author rdf:resource="https://scholar.google.de/citations?user=5mlytawAAAAJ"></schema:author>
+            <owl:sameAs rdf:resource="http://semanticcomputing.github.io/angular-semantic-faceted-search/#/api"/>
+            <rdfs:seeAlso rdf:resource="http://onto.fel.cvut.cz/dataset-explorer/"/>
+            <rdfs:seeAlso rdf:resource="http://ceur-ws.org/Vol-1615/semdevPaper5.pdf"/>
+            <rdfs:seeAlso rdf:resource="https://www.npmjs.com/package/sparql-faceter"/>
+            <rdfs:seeAlso rdf:resource="http://voila2018.visualdataweb.org/slides/voila2018_paper5_slides.pdf"/>
+            <rdfs:seeAlso rdf:resource="https://www.semanticscholar.org/paper/SPARQL-Faceter-Client-side-Faceted-Search-Based-on-Koho-Heino/2ae42e88fbd6444905e81c9a85e792055f942189"/>
+            <foaf:depiction rdf:resource="https://ai2-s2-public.s3.amazonaws.com/figures/2017-08-08/2ae42e88fbd6444905e81c9a85e792055f942189/5-Figure1-1.png"></foaf:depiction>
+        </schema:SoftwareApplication>
+        <schema:SoftwareApplication rdf:nodeId="Facet_Graphs">
+            <rdf:type rdf:resource="http://schema.org/Thing"/>
+            <rdfs:label>Facet Graphs</rdfs:label>
+            <dbonto:abstract>While the Semantic Web is rapidly filling up, appropriate tools for searching it are still at infancy. In this paper we describe an approach that allows humans to access information contained in the Semantic Web according to its semantics and thus to leverage the specific characteristic of this Web. To avoid the ambiguity of natural language queries, users only select already defined attributes organized in facets to build their search queries. The facets are represented as nodes in a graph visualization and can be interactively added and removed by the users in order to produce individual search interfaces. This provides the possibility to generate interfaces in arbitrary complexities and access arbitrary domains. Even multiple and distantly connected facets can be integrated in the graph facilitating the access of information from different user-defined perspectives. Challenges include massive amounts of data, massive semantic relations within the data, highly complex search queries and users’ unfamiliarity with the Semantic Web. </dbonto:abstract>
+            <owl:sameAs rdf:resource="https://link.springer.com/content/pdf/10.1007%2F978-3-642-13486-9_20.pdf"/>
+        </schema:SoftwareApplication>
+    <rdfs:Resource rdf:nodeId="Glossary_of_Faceted_Search_Terms">
+        <rdfs:label>Glossary of Faceted Search Terms</rdfs:label>
+        <rdf:type rdf:resource="http://schema.org/Thing"/>
+        <rdf:type rdf:resource="http://dbpedia.org/class/yago/Glossary106420781"/>
+        <dbpprop:term>Piggy Bank</dbpprop:term>
+        <dbpprop:term>Simile</dbpprop:term>
+        <dbpprop:term>Qanvas</dbpprop:term>
+    </rdfs:Resource>
+    </rdf:RDF>

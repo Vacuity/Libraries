@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="dsn:data.vios.network/o/"
+     xml:base="dsn:data.vios.network/o/"
+     xmlns:vprop="dsn:data.vios.network/o/"
+     xmlns:vclass="dsn:data.vios.network/o/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace/"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:dcat="http://www.w3.org/ns/dcat#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:vids="dsn:data.vios.network/i#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:scot="http://rdfs.org/scot/ns#"
+     xmlns:schema="http://schema.org/"
+     xmlns:vinst="dsn:data.vios.network/i#"
+     xmlns:dbpprop="http://dbpedia.org/property/" 
+     xmlns:dbonto="http://dbpedia.org/ontology/"
+     xmlns:opla="http://www.openlinksw.com/schema/attribution#"
+     xmlns:ns0="http://xmlns.com/foaf/0.1/" 
+        xmlns:ns1="http://www.w3.org/2000/01/rdf-schema#" 
+        xmlns:ns2="http://purl.org/dc/terms/" 
+        xmlns:ns3="http://dbpedia.org/ontology/"
+        xmlns:sparql="http://www.w3.org/ns/sparql-service-description#">
+    <rdf:Description rdf:about="dsn:data.vios.network/i#10_VIOS_tokens">
+        <rdfs:label>10 VIOS tokens</rdfs:label>
+        <rdfs:comment>Bounty ends May 30, 2019</rdfs:comment>
+        <rdf:type rdf:resource="https://schema.org/PriceSpecification"></rdf:type>
+        <schema:price>10</schema:price>
+        <schema:priceCurrency>VIOS</schema:priceCurrency>
+        <schema:validThrough>05/30/2019</schema:validThrough>
+    </rdf:Description>
+        
+    <rdf:Description rdf:about="dsn:data.vios.network/i#50_VIOS_tokens">
+        <rdfs:label>50 VIOS tokens</rdfs:label>
+        <rdfs:comment>Bounty ends May 30, 2019</rdfs:comment>
+        <rdf:type rdf:resource="https://schema.org/PriceSpecification"></rdf:type>
+        <schema:price>50</schema:price>
+        <schema:priceCurrency>VIOS</schema:priceCurrency>
+        <schema:validThrough>05/30/2019</schema:validThrough>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="dsn:data.vios.network/i#200_VIOS_tokens">
+        <rdfs:label>200 VIOS tokens</rdfs:label>
+        <rdfs:comment>Bounty ends May 30, 2019</rdfs:comment>
+        <rdf:type rdf:resource="https://schema.org/PriceSpecification"></rdf:type>
+        <schema:price>200</schema:price>
+        <schema:priceCurrency>VIOS</schema:priceCurrency>
+        <schema:validThrough>05/30/2019</schema:validThrough>
+    </rdf:Description>
+
+    <owl:NamedIndividual rdf:about="mailto:admin@vios.network">
+        <schema:seeks rdf:resource="dsn:data.vios.network/i#7238328b-bf47-41ee-9aad-77f2560f0510"></schema:seeks>
+        <schema:seeks rdf:resource="dsn:data.vios.network/i#075a9568-2340-4846-8f97-10057bbcaa8c"></schema:seeks>
+        <schema:seeks rdf:resource="dsn:data.vios.network/i#b17e2aa2-0b98-444e-ab4e-bbdcd9065e2e"></schema:seeks>
+        <schema:seeks rdf:resource="dsn:data.vios.network/i#bcbb5384-673e-47d1-97f5-63b9cd880ed1"></schema:seeks>
+        <schema:seeks rdf:resource="dsn:data.vios.network/i#7566e0e6-8f9e-407a-b48b-463dce610864"></schema:seeks>
+        <schema:seeks rdf:resource="dsn:data.vios.network/i#74f465a0-e23e-4111-a65a-fba879081278"></schema:seeks>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="dsn:data.vios.network/i#7238328b-bf47-41ee-9aad-77f2560f0510">
+        <rdf:type rdf:resource="dsn:data.vios.network/o/Bounty"></rdf:type>
+        <rdfs:label>The actor who played in 3 or more films with the same keyword in the title</rdfs:label>
+        <terms:description>This is a demand for a collection permalink of films which contain the same keyword and which share the same actor.</terms:description>
+        <rdfs:comment>The keyword must be a noun or verb</rdfs:comment>
+        <rdfs:comment>Each film in the list must not be a version of another film (e.g. sequels, prequels)</rdfs:comment>
+        <schema:itemOffered rdf:resource="dsn:data.vios.network/o/Permalink"/>
+        <schema:availableDeliveryMethod>email</schema:availableDeliveryMethod>
+        <schema:validThrough>05/30/2019</schema:validThrough>
+        <schema:PriceSpecification rdf:resource="dsn:data.vios.network/i#50_VIOS_tokens"></schema:PriceSpecification>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="dsn:data.vios.network/i#075a9568-2340-4846-8f97-10057bbcaa8c">
+        <rdf:type rdf:resource="dsn:data.vios.network/o/Bounty"></rdf:type>
+        <rdfs:label>The actor who played in the most films with the same keyword in the title</rdfs:label>
+        <terms:description>This is a demand for the permalink for the largest collection of films which contain the same keyword and which share the same actor.</terms:description>
+        <rdfs:comment>The keyword must be a noun or verb</rdfs:comment>
+        <rdfs:comment>Each film in the list must not be a version of another film (e.g. sequels, prequels)</rdfs:comment>
+        <schema:itemOffered rdf:resource="dsn:data.vios.network/o/Permalink"/>
+        <schema:availableDeliveryMethod>email</schema:availableDeliveryMethod>
+        <schema:validThrough>05/30/2019</schema:validThrough>
+        <schema:PriceSpecification rdf:resource="dsn:data.vios.network/i#200_VIOS_tokens"></schema:PriceSpecification>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="dsn:data.vios.network/i#b17e2aa2-0b98-444e-ab4e-bbdcd9065e2e">
+        <rdf:type rdf:resource="dsn:data.vios.network/o/Bounty"></rdf:type>
+        <rdfs:label>The ships that are named after cities</rdfs:label>
+        <terms:description>This is a demand for the permalink for the set of sailing vessels named after cities</terms:description>
+        <rdfs:comment>The city may be the ship's current or past name</rdfs:comment>
+        <schema:itemOffered rdf:resource="dsn:data.vios.network/o/Permalink"/>
+        <schema:availableDeliveryMethod>email</schema:availableDeliveryMethod>
+        <schema:validThrough>05/30/2019</schema:validThrough>
+        <schema:PriceSpecification rdf:resource="dsn:data.vios.network/i#50_VIOS_tokens"></schema:PriceSpecification>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="dsn:data.vios.network/i#bcbb5384-673e-47d1-97f5-63b9cd880ed1">
+        <rdf:type rdf:resource="dsn:data.vios.network/o/Bounty"></rdf:type>
+        <rdfs:label>The comic for a single Marvel hero that features the most Marvel heroes</rdfs:label>
+        <terms:description>This is a demand for the permalink for the comic that features the most Marvel characters</terms:description>
+        <rdfs:comment>The comic cannot be the comic of a group of Marvel heroes (e.g. Avengers, X-Men)</rdfs:comment>
+        <schema:itemOffered rdf:resource="dsn:data.vios.network/o/Permalink"/>
+        <schema:availableDeliveryMethod>email</schema:availableDeliveryMethod>
+        <schema:validThrough>05/30/2019</schema:validThrough>
+        <schema:PriceSpecification rdf:resource="dsn:data.vios.network/i#50_VIOS_tokens"></schema:PriceSpecification>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="dsn:data.vios.network/i#74f465a0-e23e-4111-a65a-fba879081278">
+        <rdf:type rdf:resource="dsn:data.vios.network/o/Bounty"></rdf:type>
+        <rdfs:label>Which Skyscrapers in China have more than 50 floors and have been constructed before the year 2000</rdfs:label>
+        <terms:description>This is a demand for the permalink for Skyscrapers in China have more than 50 floors and have been constructed before the year 2000</terms:description>
+        <rdfs:comment>The solution should be a tabulated collection</rdfs:comment>
+        <schema:itemOffered rdf:resource="dsn:data.vios.network/o/Permalink"/>
+        <schema:availableDeliveryMethod>email</schema:availableDeliveryMethod>
+        <schema:validThrough>05/30/2019</schema:validThrough>
+        <schema:PriceSpecification rdf:resource="dsn:data.vios.network/i#50_VIOS_tokens"></schema:PriceSpecification>
+    </owl:NamedIndividual>
+
+    <owl:NamedIndividual rdf:about="dsn:data.vios.network/i#7566e0e6-8f9e-407a-b48b-463dce610864">
+        <rdf:type rdf:resource="dsn:data.vios.network/o/Bounty"></rdf:type>
+        <rdfs:label>Which Rivers flow into the Rhine and are longer than 50 kilometers?</rdfs:label>
+        <terms:description>This is a demand for the permalink for the rivers which flow into the Rhine and are longer than 50 kilometers?</terms:description>
+        <schema:itemOffered rdf:resource="dsn:data.vios.network/o/Permalink"/>
+        <schema:availableDeliveryMethod>email</schema:availableDeliveryMethod>
+        <schema:validThrough>05/30/2019</schema:validThrough>
+        <schema:PriceSpecification rdf:resource="dsn:data.vios.network/i#50_VIOS_tokens"></schema:PriceSpecification>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
